@@ -6,7 +6,7 @@
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 15:50:25 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/22 15:34:21 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/22 16:13:54 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int	percent_found(va_list arg_list, char cha)
 
 	num_ret = 0;
 	if (cha == 'c')
-		num_ret = ft_putchar_printf((char)va_arg(arg_list, int));
+		num_ret = ft_putchar((char)va_arg(arg_list, int));
 	if (cha == 's')
 		num_ret = ft_putstr((char *)va_arg(arg_list, char *));
 	if (cha == 'd' || cha == 'i')
