@@ -18,10 +18,10 @@ Memory Functions:
 - ft_memcmp.c:   Compares two memory areas.
 
 Linked List Functions:
-- ft_lstnew.c:........Creates a new linked list node.
-- ft_lstlast.c:.......Returns the last node of a linked list.
-- ft_lstadd_back.c:...Adds a new node to the end of a linked list.
-- ft_lstclear.c:......Clears and frees all nodes of a linked list.
+- ft_lstnew.c:~~~~~~~~Creates a new linked list node.
+- ft_lstlast.c:~~~~~~~Returns the last node of a linked list.
+- ft_lstadd_back.c:~~~Adds a new node to the end of a linked list.
+- ft_lstclear.c:~~~~~~Clears and frees all nodes of a linked list.
   
 Conversion Functions:
 - ft_atoi.c:        Converts a string to an integer.
