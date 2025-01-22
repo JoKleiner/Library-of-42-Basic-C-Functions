@@ -1,2 +1,3 @@
 # Standart-Library
-Standart-Librabry is a custom implementation of essential library functions in C. This repository is designed for developers who want to gain a deeper understanding of how standard library functions work or require their own tailored versions for specific projects.
+Standart-Librabry is a collection of essential library functions in C.
+This repository is designed for developers to gain a deeper understanding of how the functions of the standart-lib works and helped with their own versions for other projects.
