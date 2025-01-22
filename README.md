@@ -73,11 +73,11 @@ Clone the git into your directory.
 
 	git clone https://github.com/JoKleiner/Standart-Library.git libft
 
-include in your Headerfile:
+Add the libft_header to your header file:
 
 	#include "libft/libft.h"
 
-example for your Makefile:
+Example for your Makefile:
 
 
 	NAME 		= test
