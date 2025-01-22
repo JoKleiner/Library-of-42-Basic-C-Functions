@@ -38,7 +38,7 @@ $(OBJ_DIR)/%.o: %.c $(HEADER)
 $(NAME): $(OBJS)
 	@printf "Objects \033[0;32mcreated\033[0m\n"
 	@printf "Linking \033[0;32m$(NAME)\033[0m\n"
-	ar rcs $(NAME) $(OBJS)
+	@ar rcs $(NAME) $(OBJS)
 	@printf "\033[0;32m$(NAME) successfully built!\033[0m\n"
 
 clean:

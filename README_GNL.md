@@ -19,4 +19,3 @@ In the following application example, the file "text.txt" is read
  		close(fd);
  		return (0);
 	}
-
