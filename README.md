@@ -3,7 +3,7 @@ The library is a collection of basic functions in C written by myself.<br />
 This repository is intended to deepen my understanding of how some standard functions work and to provide the opportunity to use my implementations in other projects.
 <br/><br/>
 
-**Below you can see how you can include the library in your projects.**
+**Below you can see how you can integrate the library into your projects.**
 <br/><br/>
 
 **<ins>List of all included functions:</ins>**
