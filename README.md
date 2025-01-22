@@ -69,7 +69,7 @@ This repository is designed to deepen my understanding of how standard library f
 <br/><br/>
 
 <ins>Using:</ins><br/><br/>
-Clone the git in your directory.
+Clone the git into your directory.
 
 	git clone https://github.com/JoKleiner/Standart-Library.git libft
 
