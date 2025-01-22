@@ -8,6 +8,7 @@ This repository is intended to help me gain a deeper understanding of how the fu
 - **ft_printf:** _Prints data to standard output._
 - **get_next_line:** _Reads a line from a file descriptor._
 
+
 **Memory Functions:**
 - **ft_bzero.c:** _Sets all bytes in a memory area to zero._
 - **ft_calloc.c:** _Allocates memory and initializes all bytes to zero._
@@ -17,15 +18,18 @@ This repository is intended to help me gain a deeper understanding of how the fu
 - **ft_memchr.c:** _Locates the first char in a memory block._
 - **ft_memcmp.c:** _Compares two memory areas._
 
+
 **Linked List Functions:**
 - **ft_lstnew.c:** _Creates a new linked list node._
 - **ft_lstlast.c:** _Returns the last node of a linked list._
 - **ft_lstadd_back.c:** _Adds a new node to the end of a linked list._
 - **ft_lstclear.c:** _Clears and frees all nodes of a linked list._
+
   
 **Conversion Functions:**
 - **ft_atoi.c:**        _Converts a string to an integer._
 - **ft_itoa.c:**        _Converts an integer to a string._
+
 
 **String Manipulation Functions:**
 - **ft_strlen.c:**      _Returns the length of a string._
@@ -33,6 +37,7 @@ This repository is intended to help me gain a deeper understanding of how the fu
 - **ft_strjoin.c:**     _Concatenates two strings into a new string._
 - **ft_strlcpy.c:**     _Copies a string to a destination buffer with size limit._
 - **ft_split.c:**       _Splits a string into substrings using a delimiter._
+
   
 **Further Functions:**
 - **ft_putendl_fd.c:**  _Writes a string followed by a newline._
