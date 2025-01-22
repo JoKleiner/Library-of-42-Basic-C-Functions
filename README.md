@@ -8,7 +8,7 @@ This repository is intended to help me gain a deeper understanding of how the fu
 - **ft_printf:** _Prints data to standard output._
 - **get_next_line:** _Reads a line from a file descriptor._
 <br/><br/>
-<br/><br/>
+
 **Memory Functions:**
 - **ft_bzero.c:** _Sets all bytes in a memory area to zero._
 - **ft_calloc.c:** _Allocates memory and initializes all bytes to zero._
