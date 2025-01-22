@@ -4,7 +4,6 @@ This repository is designed to deepen my understanding of how standard library f
 
 <br/><br/>
 <br/><br/>
-
 **Input/Output Functions:**
 - **ft_printf:**        _Prints data to standard output._
 - **get_next_line:**    _Reads a line from a file descriptor._
