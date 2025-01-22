@@ -3,7 +3,7 @@ The standard library is a collection of basic library functions in C written by 
 This repository is designed to deepen my understanding of how standard library functions work and to use my own implementations in other projects.
 <br/><br/>
 
-**For using see below.**
+**Below you can see how the std_lib can be used.**
 <br/><br/>
 
 **<ins>List of all included functions:</ins>**
