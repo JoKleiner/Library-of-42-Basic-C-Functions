@@ -10,7 +10,7 @@ Input/Output Functions:
 
 Memory Functions:
 - ft_bzero.c:          Sets all bytes in a memory area to zero.
-- ft_calloc.c:      Allocates memory and initializes all bytes to zero.
+- ft_calloc.c:         Allocates memory and initializes all bytes to zero.
 - ft_memset.c:      Fills a memory block with a specific byte value.
 - ft_memcpy.c:      Copies a memory block to another location.
 - ft_memmove.c:     Copies memory with overlapping areas handled safely.
