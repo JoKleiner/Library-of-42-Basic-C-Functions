@@ -47,7 +47,7 @@ This repository is designed to deepen my understanding of how some standart func
 
 **Further Functions:**
 - **ft_putchar.c:**  	_Writes a single character._
-- **ft_putendl.c:**  _Writes a string followed by a newline._
+- **ft_putendl.c:**  	_Writes a string followed by a newline._
 - **ft_putnbr.c:**   	_Writes an integer as a string._
 - **ft_putstr.c:**   	_Writes a string._
 - **ft_isalnum.c:**     _Checks if a character is alphanumeric (letter or digit)._
