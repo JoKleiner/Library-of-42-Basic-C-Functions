@@ -46,10 +46,10 @@ This repository is designed to deepen my understanding of how some standart func
 <br/><br/>
 
 **Further Functions:**
-- **ft_putchar.c:**  _Writes a single character._
+- **ft_putchar.c:**  	_Writes a single character._
 - **ft_putendl_fd.c:**  _Writes a string followed by a newline._
-- **ft_putnbr.c:**   _Writes an integer as a string._
-- **ft_putstr.c:**   _Writes a string._
+- **ft_putnbr.c:**   	_Writes an integer as a string._
+- **ft_putstr.c:**   	_Writes a string._
 - **ft_isalnum.c:**     _Checks if a character is alphanumeric (letter or digit)._
 - **ft_isalpha.c:**     _Checks if a character is an alphabetic letter._
 - **ft_isascii.c:**     _Checks if a character is part of the ASCII set._
