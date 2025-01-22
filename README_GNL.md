@@ -4,18 +4,18 @@ Get Next Line: Reads and returns the next line from a file descriptor, including
 
 In the following application example, the file "text.txt" is read
 
-int	main(void)
-{
- 	int		fd;
-	char	*str;
+	int	main(void)
+	{
+ 		int	fd;
+		char	*str;
 
- 	fd = open("text.txt", O_RDONLY);
-	str = get_next_line(fd);
- 	if (str != NULL)
- 	{
- 		printf("%s", str);
- 		free(str);
- 	}
- 	close(fd);
- 	return (0);
-}
+ 		fd = open("text.txt", O_RDONLY);
+		str = get_next_line(fd);
+ 		if (str != NULL)
+ 		{
+ 			printf("%s", str);
+ 			free(str);
+ 		}
+ 		close(fd);
+ 		return (0);
+	}
