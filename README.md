@@ -1,3 +1,3 @@
 # Standart-Library
-Standart-Librabry is a collection of essential library functions in C.
-This repository is designed for developers to gain a deeper understanding of how the functions of the standart-lib works and helped with their own versions for other projects.
+The standard library is a collection of basic library functions in C.
+This repository is intended to help me gain a deeper understanding of how the standard library functions work and to use my own version in other projects.
