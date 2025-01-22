@@ -67,38 +67,38 @@ This repository is designed to deepen my understanding of how standard library f
 <br/><br/>
 
 Using:
-git clone https://github.com/JoKleiner/Standart-Library.git libft
+	git clone https://github.com/JoKleiner/Standart-Library.git libft
 
 include in your Headerfile:
-#include "libft/libft.h"
+	#include "libft/libft.h"
 
 include into your Makefile:
-NAME 		= test
-CC 			= cc
-CFLAGS 		= -Wall -Wextra -Werror
+	NAME 		= test
+	CC 			= cc
+	CFLAGS 		= -Wall -Wextra -Werror
 
-LIBFT_DIR   = libft
-LIBFT       = $(LIBFT_DIR)/libft.a
-SRC         = main.c
-OBJS        = $(SRC:.c=.o)
+	LIBFT_DIR   = libft
+	LIBFT       = $(LIBFT_DIR)/libft.a
+	SRC         = main.c
+	OBJS        = $(SRC:.c=.o)
 
-all: $(NAME)
+	all: $(NAME)
 
-$(NAME): $(LIBFT) $(OBJS)
+	$(NAME): $(LIBFT) $(OBJS)
 	@$(CC) $(CFLAGS) -o $(NAME) $(OBJS) $(LIBFT)
 
-$(LIBFT):
+	$(LIBFT):
 	@$(MAKE) -C $(LIBFT_DIR)
 
-%.o: %.c
+	%.o: %.c
 	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -c $< -o $@
 
-clean:
+	clean:
 	@rm -f $(OBJS)
 	@$(MAKE) -C $(LIBFT_DIR) clean
 
-fclean: clean
+	fclean: clean
 	@rm -f $(NAME)
 	@$(MAKE) -C $(LIBFT_DIR) fclean
 
-re: fclean all
+	re: fclean all
