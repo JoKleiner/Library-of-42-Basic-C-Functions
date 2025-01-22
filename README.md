@@ -70,11 +70,11 @@ This repository is designed to deepen my understanding of how standard library f
 
 Using:
 
-git clone https://github.com/JoKleiner/Standart-Library.git libft
+	git clone https://github.com/JoKleiner/Standart-Library.git libft
 
 include in your Headerfile:
 
-#include "libft/libft.h"
+	#include "libft/libft.h"
 
 include into your Makefile:
 
