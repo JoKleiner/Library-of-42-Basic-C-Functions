@@ -6,7 +6,7 @@
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 12:01:27 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/22 14:41:28 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/22 15:44:27 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,7 @@ int					case_xx(unsigned int numunsign, char cha);
 int					hex_for_xx(unsigned int numunsign, char *buffer, char cha);
 int					case_u(unsigned int numunsign);
 int					case_p(size_t num);
+int					ft_putchar_printf(char cha);
 
 // get_next_line
 # ifndef BUFFER_SIZE
@@ -58,7 +59,7 @@ void				*ft_memmove(void *dst, const void *src, size_t len);
 t_list				*ft_lstnew(void *content);
 t_list				*ft_lstlast(t_list *lst);
 void				ft_lstadd_back(t_list **lst, t_list *next);
-void				ft_lstclear(t_list **lst, void (*del)(void *));
+void				ft_lstclear(t_list **lst);
 
 // Convert Functions
 int					ft_atoi(const char *str);
@@ -74,10 +75,10 @@ char				**ft_split(char const *str, char cha);
 int					ft_putstr_rev(char *str);
 
 // Further Functions
-void				ft_putchar_fd(char cha, int fd);
-void				ft_putstr_fd(char *str, int fd);
+int					ft_putchar(char cha);
+long				ft_putstr(char *str);
 void				ft_putendl_fd(char *s, int fd);
-void				ft_putnbr_fd(int num, int fd);
+int					ft_putnbr(int num);
 int					ft_isalnum(int cha);
 int					ft_isalpha(int cha);
 int					ft_isascii(int cha);

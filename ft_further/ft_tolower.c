@@ -6,9 +6,11 @@
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 13:41:11 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/22 14:20:55 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/22 15:28:10 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "../libft.h"
 
 int	ft_tolower(int cha)
 {

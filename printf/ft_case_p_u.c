@@ -6,11 +6,11 @@
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 18:38:29 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/22 14:39:05 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/22 15:34:44 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 int	case_p(size_t num)
 {
@@ -50,7 +50,7 @@ int	case_u(unsigned int numunsign)
 		num_ret = case_u(numunsign / 10);
 	if (num_ret == -1)
 		return (-1);
-	if (ft_putchar(numunsign % 10 + '0') == -1)
+	if (ft_putchar_printf(numunsign % 10 + '0') == -1)
 		return (-1);
 	return (num_ret + 1);
 }

@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
+/*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 17:09:05 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/22 14:20:34 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/22 15:38:59 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
-void	ft_putchar_fd(char cha, int fd)
+int	ft_putchar(char cha)
 {
-	write(fd, &cha, 1);
+	return (write(1, &cha, 1));
 }

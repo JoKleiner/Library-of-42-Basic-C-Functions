@@ -1,63 +1,41 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
+/*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 17:36:18 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/22 14:20:37 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/22 15:40:58 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
-void	mem_fill2(char *ptr, long num, int i)
+int	ft_putnbr(int num)
 {
-	ptr[i] = '\0';
-	ptr[0] = '-';
-	while (num > 0)
-	{
-		ptr[i - 1] = (num % 10) + '0';
-		num = num / 10;
-		i--;
-	}
-}
-
-void	inttoptr(long num, char *ptr)
-{
+	char	str[12];
+	long	numlong;
 	int		i;
 	long	temp;
 
-	if (num == 0)
-	{
-		ptr[0] = '0';
-		ptr[1] = '\0';
-		return ;
-	}
-	i = 0;
-	if (num < 0)
-	{
-		i++;
-		num = -num;
-	}
-	temp = num;
-	while (temp > 0)
-	{
-		temp = temp / 10;
-		i++;
-	}
-	mem_fill2(ptr, num, i);
-}
-
-void	ft_putnbr_fd(int num, int fd)
-{
-	char	*ptr;
-	char	str[12];
-	long	numlong;
-
 	numlong = num;
-	ptr = str;
-	inttoptr(numlong, ptr);
-	write(fd, ptr, ft_strlen((const char *)ptr));
+	i = 0;
+	if (num == 0)
+		return (write(1, "0", 1));
+	if (numlong < 0)
+	{
+		str[i++] = '-';
+		numlong = -numlong;
+	}
+	temp = numlong;
+	while (temp > 0 && i++ >= 0)
+		temp = temp / 10;
+	str[i] = '\0';
+	while (numlong > 0)
+	{
+		str[--i] = (numlong % 10) + '0';
+		numlong = numlong / 10;
+	}
+	return (write(1, str, ft_strlen(str)));
 }

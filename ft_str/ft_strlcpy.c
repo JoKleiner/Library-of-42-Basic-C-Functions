@@ -6,11 +6,11 @@
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/07 18:48:50 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/22 14:21:35 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/22 15:27:06 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstlen)
 {

@@ -6,11 +6,11 @@
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 13:24:19 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/22 14:20:57 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/22 15:28:14 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 int	ft_toupper(int cha)
 {

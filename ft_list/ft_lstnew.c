@@ -6,11 +6,11 @@
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/25 14:08:14 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/22 14:21:11 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/22 15:27:00 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 t_list	*ft_lstnew(void *content)
 {

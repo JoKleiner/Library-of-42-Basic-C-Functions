@@ -6,11 +6,11 @@
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 15:37:41 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/22 14:21:31 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/22 15:27:05 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 char	*ft_strdup(const char *str)
 {

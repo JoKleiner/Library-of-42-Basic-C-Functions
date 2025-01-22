@@ -6,11 +6,11 @@
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 10:57:58 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/22 14:20:48 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/22 15:27:54 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 char	*ft_strnstr(const char *src, const char *search, size_t len)
 {

@@ -6,11 +6,11 @@
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 13:33:48 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/22 14:41:55 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/22 15:27:04 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 int	ft_putstr_rev(char *str)
 {

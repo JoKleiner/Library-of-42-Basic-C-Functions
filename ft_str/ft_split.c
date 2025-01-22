@@ -6,11 +6,11 @@
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 14:58:22 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/22 14:21:30 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/22 15:27:04 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 size_t	count_word(char const *str, char cha)
 {

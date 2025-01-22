@@ -6,11 +6,11 @@
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 12:29:40 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/22 14:21:47 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/22 15:24:17 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 char	*init_temp(char *temp, char **line, char **buffer)
 {

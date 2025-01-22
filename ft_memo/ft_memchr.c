@@ -6,11 +6,11 @@
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 13:42:46 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/22 14:18:23 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/22 15:27:02 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 void	*ft_memchr(const void *str, int cha, size_t num)
 {

@@ -6,11 +6,11 @@
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 18:28:34 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/22 14:21:20 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/22 15:27:03 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 void	*ft_memcpy(void *dst, const void *src, size_t num)
 {

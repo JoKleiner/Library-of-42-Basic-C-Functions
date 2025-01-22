@@ -6,11 +6,11 @@
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 14:53:00 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/22 14:20:18 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/22 15:26:43 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 int	ft_atoi(const char *str)
 {

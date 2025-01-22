@@ -6,11 +6,11 @@
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 16:51:21 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/22 14:20:41 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/22 15:26:49 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 void	ft_striteri(char *str, void (*f)(unsigned int, char *))
 {
