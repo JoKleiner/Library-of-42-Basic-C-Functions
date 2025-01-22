@@ -69,12 +69,16 @@ This repository is designed to deepen my understanding of how standard library f
 <br/><br/>
 
 Using:
+
 git clone https://github.com/JoKleiner/Standart-Library.git libft
 
 include in your Headerfile:
+
 #include "libft/libft.h"
 
 include into your Makefile:
+
+
 	NAME 		= test
 	CC 			= cc
 	CFLAGS 		= -Wall -Wextra -Werror
