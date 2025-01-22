@@ -1,5 +1,5 @@
 # Standart-Library
-The standard library is a collection of basic library functions in C.
+The standard library is a collection of basic library functions in C.<br />
 This repository is intended to help me gain a deeper understanding of how the functions of the standard library work and to use my own version in other projects.
 
 <br/><br/>
