@@ -110,7 +110,6 @@ example for your Makefile:
 
 	re: fclean all
 <br/><br/>
-
 Usecase for the function get_next_line.
 
 	int	main(void)
