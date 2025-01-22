@@ -68,8 +68,9 @@ This repository is designed to deepen my understanding of how standard library f
 - **ft_strtrim.c:**     _Trims characters from the beginning and end of a string._
 <br/><br/>
 
-<ins>Using:</ins>
+<ins>Using:</ins><br/><br/>
 Clone the git in your directory.
+
 	git clone https://github.com/JoKleiner/Standart-Library.git libft
 
 include in your Headerfile:
