@@ -2,7 +2,8 @@
 The standard library is a collection of basic library functions in C.
 This repository is intended to help me gain a deeper understanding of how the functions of the standard library work and to use my own version in other projects.
 
-
+<br/><br/>
+<br/><br/>
 
 **Input/Output Functions:**
 - **ft_printf:** _Prints data to standard output._
@@ -17,16 +18,19 @@ This repository is intended to help me gain a deeper understanding of how the fu
 - **ft_memmove.c:** _Copies memory with overlapping areas handled safely._
 - **ft_memchr.c:** _Locates the first char in a memory block._
 - **ft_memcmp.c:** _Compares two memory areas._
+<br/><br/>
 
 **Linked List Functions:**
 - **ft_lstnew.c:** _Creates a new linked list node._
 - **ft_lstlast.c:** _Returns the last node of a linked list._
 - **ft_lstadd_back.c:** _Adds a new node to the end of a linked list._
 - **ft_lstclear.c:** _Clears and frees all nodes of a linked list._
+<br/><br/>
 
 **Conversion Functions:**
 - **ft_atoi.c:**        _Converts a string to an integer._
 - **ft_itoa.c:**        _Converts an integer to a string._
+<br/><br/>
 
 **String Manipulation Functions:**
 - **ft_strlen.c:**      _Returns the length of a string._
@@ -34,6 +38,7 @@ This repository is intended to help me gain a deeper understanding of how the fu
 - **ft_strjoin.c:**     _Concatenates two strings into a new string._
 - **ft_strlcpy.c:**     _Copies a string to a destination buffer with size limit._
 - **ft_split.c:**       _Splits a string into substrings using a delimiter._
+<br/><br/>
 
 **Further Functions:**
 - **ft_putendl_fd.c:**  _Writes a string followed by a newline._
