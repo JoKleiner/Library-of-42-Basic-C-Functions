@@ -29,59 +29,59 @@ typedef struct s_list
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 100
 # endif
-char				*get_next_line(int fd);
-int				get_next_line_2(char **line, char *temp, char *buffer, int bytes_num);
-char				*expand_line(char **line, char *buffer, int i);
-char				*init_temp(char *temp, char **line, char **buffer);
-void				free_str(char **str);
+char		*get_next_line(int fd);
+int		get_next_line_2(char **line, char *temp, char *buffer, int bytes_num);
+char		*expand_line(char **line, char *buffer, int i);
+char		*init_temp(char *temp, char **line, char **buffer);
+void		free_str(char **str);
 
 // Memory Functionos
-void				ft_bzero(void *str, size_t num);
-void				*ft_calloc(size_t num, size_t size);
-void				*ft_memset(void *str, int cha, size_t len);
-void				*ft_memchr(const void *str, int cha, size_t num);
-int				ft_memcmp(const void *str1, const void *str2, size_t num);
-void				*ft_memcpy(void *dst, const void *src, size_t num);
-void				*ft_memmove(void *dst, const void *src, size_t len);
+void		ft_bzero(void *str, size_t num);
+void		*ft_calloc(size_t num, size_t size);
+void		*ft_memset(void *str, int cha, size_t len);
+void		*ft_memchr(const void *str, int cha, size_t num);
+int		ft_memcmp(const void *str1, const void *str2, size_t num);
+void		*ft_memcpy(void *dst, const void *src, size_t num);
+void		*ft_memmove(void *dst, const void *src, size_t len);
 
 // Linked List
-t_list				*ft_lstnew(void *content);
-t_list				*ft_lstlast(t_list *lst);
-void				ft_lstadd_back(t_list **lst, t_list *next);
-void				ft_lstclear(t_list **lst, void (*del)(void *));
+t_list		*ft_lstnew(void *content);
+t_list		*ft_lstlast(t_list *lst);
+void		ft_lstadd_back(t_list **lst, t_list *next);
+void		ft_lstclear(t_list **lst, void (*del)(void *));
 
 // Convert Functions
-int				ft_atoi(const char *str);
-char				*ft_itoa(int n);
+int		ft_atoi(const char *str);
+char		*ft_itoa(int n);
 
 // String Functions
-size_t				ft_strlen(const char *str);
-char				*ft_strdup(const char *str);
-char				*ft_strndup(const char *str, size_t len);
-char				*ft_strjoin(char const *str1, char const *str2);
-size_t				ft_strlcpy(char *dst, const char *src, size_t dstlen);
-char				**ft_split(char const *str, char cha);
+size_t		ft_strlen(const char *str);
+char		*ft_strdup(const char *str);
+char		*ft_strndup(const char *str, size_t len);
+char		*ft_strjoin(char const *str1, char const *str2);
+size_t		ft_strlcpy(char *dst, const char *src, size_t dstlen);
+char		**ft_split(char const *str, char cha);
 
 // Further Functions
-void				ft_putchar_fd(char cha, int fd);
-void				ft_putstr_fd(char *str, int fd);
-void				ft_putendl_fd(char *s, int fd);
-void				ft_putnbr_fd(int num, int fd);
-int				ft_isalnum(int cha);
-int				ft_isalpha(int cha);
-int				ft_isascii(int cha);
-int				ft_isdigit(int num);
-int				ft_isprint(int cha);
-int				ft_tolower(int cha);
-int				ft_toupper(int cha);
-char				*ft_strchr(const char *str, int cha);
-size_t				ft_strlcat(char *dst, const char *src, size_t len);
-int				ft_strncmp(const char *src1, const char *src2, size_t num);
-char				*ft_strnstr(const char *src, const char *search, size_t len);
-char				*ft_strrchr(const char *src, int find);
-char				*ft_substr(char const *str, unsigned int start, size_t len);
-char				*ft_strtrim(char const *str, char const *set);
-char				*ft_strmapi(char const *str, char (*f)(unsigned int, char));
-void				ft_striteri(char *str, void (*f)(unsigned int, char *));
+void		ft_putchar_fd(char cha, int fd);
+void		ft_putstr_fd(char *str, int fd);
+void		ft_putendl_fd(char *s, int fd);
+void		ft_putnbr_fd(int num, int fd);
+int		ft_isalnum(int cha);
+int		ft_isalpha(int cha);
+int		ft_isascii(int cha);
+int		ft_isdigit(int num);
+int		ft_isprint(int cha);
+int		ft_tolower(int cha);
+int		ft_toupper(int cha);
+char		*ft_strchr(const char *str, int cha);
+size_t		ft_strlcat(char *dst, const char *src, size_t len);
+int		ft_strncmp(const char *src1, const char *src2, size_t num);
+char		*ft_strnstr(const char *src, const char *search, size_t len);
+char		*ft_strrchr(const char *src, int find);
+char		*ft_substr(char const *str, unsigned int start, size_t len);
+char		*ft_strtrim(char const *str, char const *set);
+char		*ft_strmapi(char const *str, char (*f)(unsigned int, char));
+void		ft_striteri(char *str, void (*f)(unsigned int, char *));
 
 #endif
