@@ -109,8 +109,8 @@ example for your Makefile:
 	@$(MAKE) -C $(LIBFT_DIR) fclean
 
 	re: fclean all
-<br/><br/>
-Usecase for the function get_next_line.
+
+This is how the get_next_line function can be used.
 
 	int	main(void)
 	{
