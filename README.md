@@ -110,7 +110,7 @@ example for your Makefile:
 
 	re: fclean all
 
-This is how the **get_next_line** function can be used.
+This is how the function **get_next_line** can be used.
 
 	int	main(void)
 	{
