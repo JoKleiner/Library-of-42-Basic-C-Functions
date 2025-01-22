@@ -39,6 +39,7 @@ This repository is designed to deepen my understanding of how standard library f
 - **ft_strjoin.c:**     _Concatenates two strings into a new string._
 - **ft_strlcpy.c:**     _Copies a string to a destination buffer with size limit._
 - **ft_split.c:**       _Splits a string into substrings using a delimiter._
+- **ft_putstr_rev**     _Writes a string in revers._
 <br/><br/>
 
 **Further Functions:**
