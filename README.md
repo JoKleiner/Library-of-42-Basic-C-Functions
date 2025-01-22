@@ -1,4 +1,4 @@
-# MY Library
+# Library of standart functions in C
 The library is a collection of basic library functions in C written by myself.<br />
 This repository is designed to deepen my understanding of how standart functions work and to use my own implementations in other projects.
 <br/><br/>
