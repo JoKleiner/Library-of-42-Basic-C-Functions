@@ -6,7 +6,7 @@ This repository is designed to deepen my understanding of how standard library f
 **For using see below.**
 <br/><br/>
 
-**Includet Functions**
+**List of all included functions:**
 <br/><br/>
 
 **Input/Output Functions:**
