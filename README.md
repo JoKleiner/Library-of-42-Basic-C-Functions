@@ -1,8 +1,9 @@
 # Standart-Library
 The standard library is a collection of basic library functions in C written by myself.<br />
 This repository is designed to deepen my understanding of how standard library functions work and to use my own implementations in other projects.
-
 <br/><br/>
+
+**For using see below.**
 <br/><br/>
 
 **Input/Output Functions:**
@@ -63,4 +64,41 @@ This repository is designed to deepen my understanding of how standard library f
 - **ft_striteri.c:**    _Applies a function to each character of a string, modifying it in place._
 - **ft_substr.c:**      _Extracts a substring from a string._
 - **ft_strtrim.c:**     _Trims characters from the beginning and end of a string._
-      
+<br/><br/>
+
+Using:
+git clone https://github.com/JoKleiner/Standart-Library.git libft
+
+include in your Headerfile:
+#include "libft/libft.h"
+
+include into your Makefile:
+NAME 		= test
+CC 			= cc
+CFLAGS 		= -Wall -Wextra -Werror
+
+LIBFT_DIR   = libft
+LIBFT       = $(LIBFT_DIR)/libft.a
+SRC         = main.c
+OBJS        = $(SRC:.c=.o)
+
+all: $(NAME)
+
+$(NAME): $(LIBFT) $(OBJS)
+	@$(CC) $(CFLAGS) -o $(NAME) $(OBJS) $(LIBFT)
+
+$(LIBFT):
+	@$(MAKE) -C $(LIBFT_DIR)
+
+%.o: %.c
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -c $< -o $@
+
+clean:
+	@rm -f $(OBJS)
+	@$(MAKE) -C $(LIBFT_DIR) clean
+
+fclean: clean
+	@rm -f $(NAME)
+	@$(MAKE) -C $(LIBFT_DIR) fclean
+
+re: fclean all
