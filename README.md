@@ -76,11 +76,11 @@ include in your Headerfile:
 
 	#include "libft/libft.h"
 
-include into your Makefile:
+example for your Makefile:
 
 
 	NAME 		= test
-	CC 			= cc
+	CC 		= cc
 	CFLAGS 		= -Wall -Wextra -Werror
 
 	LIBFT_DIR   = libft
