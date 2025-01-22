@@ -6,7 +6,7 @@ This repository is intended to help me gain a deeper understanding of how the fu
 
 Input/Output Functions:
 - ft_printf:&nbsp;&nbsp;&nbsp;Prints data to standard output.
-- get_next_line:    Reads a line from a file descriptor.
+- get_next_line:"  "Reads a line from a file descriptor.
 
 Memory Functions:
 - ft_bzero.c:       Sets all bytes in a memory area to zero.
