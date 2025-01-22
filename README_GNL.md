@@ -6,7 +6,7 @@ In the following application example, the file "text.txt" is read
 
 	int	main(void)
 	{
- 		int		fd;
+ 		int	fd;
 		char	*str;
 
  		fd = open("text.txt", O_RDONLY);
