@@ -111,6 +111,7 @@ example for your Makefile:
 	re: fclean all
 
 Example for using the function get_next_line.<br/><br/>
+
 	int	main(void)
 	{
 		int	fd;
