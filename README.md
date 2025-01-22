@@ -1,6 +1,6 @@
-# Standart-Library
-The standard library is a collection of basic library functions in C written by myself.<br />
-This repository is designed to deepen my understanding of how standard library functions work and to use my own implementations in other projects.
+# MY Library
+The library is a collection of basic library functions in C written by myself.<br />
+This repository is designed to deepen my understanding of how standart functions work and to use my own implementations in other projects.
 <br/><br/>
 
 **Below you can see how you can include the library in your projects.**
