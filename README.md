@@ -5,7 +5,7 @@ This repository is intended to help me gain a deeper understanding of how the fu
 
 
 Input/Output Functions:
-- ft_printf:\tPrints data to standard output.
+- ft_printf: Prints data to standard output.
 - get_next_line:    Reads a line from a file descriptor.
 
 Memory Functions:
