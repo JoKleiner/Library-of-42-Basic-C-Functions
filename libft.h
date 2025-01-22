@@ -6,7 +6,7 @@
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 12:01:27 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/22 15:44:27 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/22 17:42:49 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,7 +76,7 @@ int		ft_putstr_rev(char *str);
 // Further Functions
 int		ft_putchar(char cha);
 long		ft_putstr(char *str);
-void		ft_putendl_fd(char *s, int fd);
+void		ft_putendl(char *s, int fd);
 int		ft_putnbr(int num);
 int		ft_isalnum(int cha);
 int		ft_isalpha(int cha);
