@@ -1,12 +1,12 @@
-# Library of basic functions in C
-The library is a collection of basic library functions in C written by myself.<br />
-This repository is designed to deepen my understanding of how some standart functions work and to use my own implementations in other projects.
+# Library of 42 basic functions in C
+This library is a collection of 42 basic functions in C written by myself.<br />
+This repository is intended to deepen my understanding of how some standard functions work and to provide the opportunity to use my implementations in other projects.
 <br/><br/>
 
-**Below you can see how you can include the library in your projects.**
+**Below you can see how you can integrate the library into your projects.**
 <br/><br/>
 
-**<ins>List of all included functions:</ins>**
+**<ins>List of all 42 included functions:</ins>**
 <br/><br/>
 **Input/Output Functions:**
 - **ft_printf:**        _Prints data to standard output._
@@ -73,11 +73,11 @@ Clone the git into your directory.
 
 	git clone https://github.com/JoKleiner/Standart-Library.git libft
 
-include in your Headerfile:
+Add the libft_header to your header file:
 
 	#include "libft/libft.h"
 
-example for your Makefile:
+Example for your Makefile:
 
 
 	NAME 		= test
