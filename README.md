@@ -1,5 +1,5 @@
-# Library of 40 basic functions in C
-This library is a collection of 40 basic functions in C written by myself.<br />
+# Library of 42 basic functions in C
+This library is a collection of 42 basic functions in C written by myself.<br />
 This repository is intended to deepen my understanding of how some standard functions work and to provide the opportunity to use my implementations in other projects.
 <br/><br/>
 
