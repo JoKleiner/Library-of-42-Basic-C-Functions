@@ -6,7 +6,7 @@
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 18:41:00 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/22 15:24:08 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/23 11:00:08 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,11 +17,6 @@ int	hex_for_xx(unsigned int numunsign, char *buffer, char cha)
 	int		i;
 
 	i = 0;
-	if (numunsign == 0)
-	{
-		buffer[i++] = '0';
-		return (i);
-	}
 	while (numunsign != 0)
 	{
 		if (cha == 'x')
@@ -36,7 +31,7 @@ int	hex_for_xx(unsigned int numunsign, char *buffer, char cha)
 
 int	case_xx(unsigned int numunsign, char cha)
 {
-	char	buffer[17];
+	char	buffer[11];
 	int		num_ret;
 
 	if (numunsign == 0)
