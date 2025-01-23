@@ -6,7 +6,7 @@ This repository is intended to deepen my understanding of how some standard func
 **Below you can see how you can integrate the library into your projects.**
 <br/><br/>
 
-**<ins>List of all 40 included functions:</ins>**
+**<ins>List of all 42 included functions:</ins>**
 <br/><br/>
 **Input/Output Functions:**
 - **ft_printf:**        _Prints data to standard output._
