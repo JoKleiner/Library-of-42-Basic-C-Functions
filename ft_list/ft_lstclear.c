@@ -6,7 +6,7 @@
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/25 14:24:08 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/22 15:44:09 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/29 14:40:18 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,7 @@ void	ft_lstclear(t_list **lst)
 	while (*lst)
 	{
 		temp = (*lst)->next;
-		free(lst);
+		free(*lst);
 		*lst = temp;
 	}
-	free(*lst);
-	*lst = NULL;
 }
