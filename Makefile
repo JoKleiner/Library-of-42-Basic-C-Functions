@@ -31,17 +31,15 @@ OBJS            = $(addprefix $(OBJ_DIR)/, $(SRCS:.c=.o))
 all: $(NAME)
 
 
-$(NAME): $(OBJS)
-	@printf "Objects libft \033[0;32mcreated\033[0m\n"
-	@printf "Linking \033[0;32m$(NAME)\033[0m\n"
-	@ar rcs $(NAME) $(OBJS)
-	@printf "\033[0;32m$(NAME) successfully built!\033[0m\n"
-
-
 $(OBJ_DIR)/%.o: %.c $(HEADER)
 	@mkdir -p $(dir $@)
 	@$(CC) $(CFLAGS) -c $< -o $@
 
+$(NAME): $(OBJS)
+	@printf "Objects libft... \033[0;32mcreated\033[0m\n"
+	@printf "Linking $(NAME)\n"
+	@ar rcs $(NAME) $(OBJS)
+	@printf "\033[0;32m$(NAME) successfully built!\033[0m\n"
 
 clean:
 	@if [ -d "$(OBJ_DIR)" ]; then \
