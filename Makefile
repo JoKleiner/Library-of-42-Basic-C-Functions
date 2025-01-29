@@ -45,7 +45,7 @@ $(OBJ_DIR)/%.o: %.c $(HEADER)
 
 clean:
 	@if [ -d "$(OBJ_DIR)" ]; then \
-		printf "Remove o-files... "; \
+		printf "Remove libft o-files... "; \
 		rm -rf $(OBJ_DIR); \
 		printf "\033[0;31mRemoved.\033[0m\n"; \
 	fi
