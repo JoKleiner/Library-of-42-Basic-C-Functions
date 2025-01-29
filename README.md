@@ -93,20 +93,22 @@ Example for your Makefile:
 	all: $(NAME)
 
 	$(NAME): $(LIBFT) $(OBJS)
-	@$(CC) $(CFLAGS) -o $(NAME) $(OBJS) $(LIBFT)
+		@$(CC) $(CFLAGS) -o $(NAME) $(OBJS) $(LIBFT)
 
 	$(LIBFT):
-	@$(MAKE) -C $(LIBFT_DIR)
+		@$(MAKE) -C $(LIBFT_DIR)
 
 	%.o: %.c
-	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -c $< -o $@
+		@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -c $< -o $@
 
 	clean:
-	@rm -f $(OBJS)
-	@$(MAKE) -C $(LIBFT_DIR) clean
+		@rm -f $(OBJS)
+		@$(MAKE) -C $(LIBFT_DIR) clean
 
 	fclean: clean
-	@rm -f $(NAME)
-	@$(MAKE) -C $(LIBFT_DIR) fclean
+		@rm -f $(NAME)
+		@$(MAKE) -C $(LIBFT_DIR) fclean
 
 	re: fclean all
+
+ 	.PHONY: all clean fclean re
