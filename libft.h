@@ -6,7 +6,7 @@
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 12:01:27 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/29 14:42:52 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/29 14:52:53 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@
 
 typedef struct s_list
 {
-	void			*content;
+	long			num;
 	struct s_list	*next;
 	struct s_list	*prev;
 }					t_list;
@@ -56,9 +56,9 @@ void		*ft_memcpy(void *dst, const void *src, size_t num);
 void		*ft_memmove(void *dst, const void *src, size_t len);
 
 // Linked List
-t_list		*ft_lstnew(void *content);
+t_list		*ft_lstnew(long number);
 t_list		*ft_lstlast(t_list *lst);
-void		ft_lstadd_back(t_list **lst, t_list *next);
+void		ft_lstadd_back(t_list **lst, t_list *new);
 void		ft_lstclear(t_list **lst);
 
 // Convert Functions
@@ -77,7 +77,7 @@ int		ft_putstr_rev(char *str);
 // Further Functions
 int		ft_putchar(char cha);
 long		ft_putstr(char *str);
-void		ft_putendl(char *s, int fd);
+void		ft_putendl(char *str);
 int		ft_putnbr(int num);
 int		ft_isalnum(int cha);
 int		ft_isalpha(int cha);
