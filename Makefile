@@ -42,7 +42,7 @@ $(NAME): $(OBJS)
 
 clean:
 	@if [ -d "$(OBJ_DIR)" ]; then \
-		printf "Remove libft o-files... "; \
+		printf "Remove $(NAME) o-files... "; \
 		rm -rf $(OBJ_DIR); \
 		printf "\033[0;31mRemoved.\033[0m\n"; \
 	fi
