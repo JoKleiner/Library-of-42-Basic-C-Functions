@@ -6,7 +6,7 @@
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 14:58:22 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/22 15:27:04 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/29 15:06:18 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,17 +33,6 @@ size_t	count_word(char const *str, char cha)
 	return (wordnum);
 }
 
-size_t	free_mem(char **wordptr, size_t j)
-{
-	while (j > 0)
-	{
-		free(wordptr[j - 1]);
-		j--;
-	}
-	free(wordptr);
-	return (0);
-}
-
 size_t	word_alloc(char const *str, char cha, char **wordptr)
 {
 	size_t	i;
@@ -61,7 +50,7 @@ size_t	word_alloc(char const *str, char cha, char **wordptr)
 				u++;
 			wordptr[j] = (char *)malloc((u + 1) * sizeof(char));
 			if (wordptr[j] == NULL)
-				return (free_mem(wordptr, j));
+				return (ft_memfree(wordptr, j), 0);
 			j++;
 			i = i + u;
 			continue ;
