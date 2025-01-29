@@ -75,7 +75,7 @@ Clone the git into your directory.
 
 Add the libft_header to your header file:
 
-	#include "libft/libft.h"
+	# include "libft/libft.h"
 
 Example for your Makefile:
 
