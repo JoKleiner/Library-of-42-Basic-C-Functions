@@ -16,11 +16,12 @@ This repository is intended to deepen my understanding of how some standard func
 **Memory Functions:**
 - **ft_bzero.c:**       _Sets all bytes in a memory area to zero._
 - **ft_calloc.c:**      _Allocates memory and initializes all bytes to zero._
-- **ft_memset.c:**      _Fills a memory block with a specific byte value._
-- **ft_memcpy.c:**      _Copies a memory block to another location._
-- **ft_memmove.c:**     _Copies memory with overlapping areas handled safely._
 - **ft_memchr.c:**      _Locates the first char in a memory block._
 - **ft_memcmp.c:**      _Compares two memory areas._
+- **ft_memcpy.c:**      _Copies a memory block to another location._
+- **ft_memfree.c:**	_Freed all memory that were allocated._
+- **ft_memmove.c:**     _Copies memory with overlapping areas handled safely._
+- **ft_memset.c:**      _Fills a memory block with a specific byte value._
 <br/><br/>
 
 **Linked List Functions:**
