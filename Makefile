@@ -42,13 +42,17 @@ $(NAME): $(OBJS)
 	@printf "\033[0;32m$(NAME) successfully built!\033[0m\n"
 
 clean:
-	@printf "Remove o-files... "
-	@rm -rf $(OBJ_DIR)
-	@printf "\033[0;31mRemoved.\033[0m\n"
+	@if [ -d "$(OBJ_DIR)" ]; then \
+		printf "Remove o-files... "; \
+		rm -rf $(OBJ_DIR); \
+		printf "\033[0;31mRemoved.\033[0m\n"; \
+	fi
 
 fclean: clean
-	@printf "Remove $(NAME)... "
-	@rm -f $(NAME)
-	@printf "\033[0;31mRemoved.\033[0m\n"
+	@if [ -f "$(NAME)" ]; then \
+		printf "Remove $(NAME)... "; \
+		rm -f $(NAME); \
+		printf "\033[0;31mRemoved.\033[0m\n"; \
+	fi
 
 re: fclean all
