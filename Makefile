@@ -37,7 +37,6 @@ $(OBJ_DIR)/%.o: %.c $(HEADER)
 
 $(NAME): $(OBJS)
 	@printf "Objects libft... \033[0;32mcreated\033[0m\n"
-	@printf "Linking $(NAME)\n"
 	@ar rcs $(NAME) $(OBJS)
 	@printf "\033[0;32m$(NAME) successfully built!\033[0m\n"
 
