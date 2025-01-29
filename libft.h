@@ -6,7 +6,7 @@
 /*   By: joklein <joklein@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 12:01:27 by joklein           #+#    #+#             */
-/*   Updated: 2025/01/29 15:03:40 by joklein          ###   ########.fr       */
+/*   Updated: 2025/01/29 15:16:44 by joklein          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ void				*ft_memchr(const void *str, int cha, size_t num);
 int					ft_memcmp(const void *str1, const void *str2, size_t num);
 void				*ft_memcpy(void *dst, const void *src, size_t num);
 void				*ft_memmove(void *dst, const void *src, size_t len);
-size_t				ft_memfree(char **wordptr, size_t i);
+void				ft_memfree(char **wordptr, size_t i);
 
 // Linked List
 t_list				*ft_lstnew(long number);
